@@ -80,9 +80,28 @@ This project showcases practical skills in:
 ##  Repository Structure
 
 ```text
-├── regression_analysis.ipynb
-├── marketing_and_sales_data_evaluate_lr.csv
-├── README.md
+marketing-roi-regression-analysis/
+│
+├── README.md                       # Project overview and documentation
+├── LICENSE                         
+├── requirements.txt                # Python dependencies
+├── .gitignore                      
+│
+├── data/
+│   └── marketing_and_sales_data_evaluate_lr.csv
+│
+├── notebooks/
+│   └── regression_analysis.ipynb
+│
+│
+├── src/                            #Reusable Python scripts
+│   ├── data_preprocessing.py
+│   ├── visualization.py
+│   └── regression_model.py
+│
+└── results/                        
+    ├── model_summary.txt
+    └── business_recommendation.md
 ```
 
 ---
@@ -92,7 +111,7 @@ This project showcases practical skills in:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/marketing-roi-regression-analysis.git
+git clone https://github.com/MondaySundayIgbone/Marketing-ROI-Analysis.git
 ```
 
 Install dependencies:
